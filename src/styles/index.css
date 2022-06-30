@@ -2,11 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+
+  margin: 0;
+  padding: 0;
+}
+
 html {
 
   box-sizing: border-box;
-  --bgColorMenu: #1d1d27;
-  --duration: .7s;
 
 }
 
@@ -14,18 +18,12 @@ html *,
 html *::before,
 html *::after {
 
-  box-sizing: inherit;
+  box-sizing: border-box;
 
 }
 
 body {
-
-  margin: 0;
-  display: flex;
   height: 100vh;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
   background-color: #ffffff;
   -webkit-tap-highlight-color: transparent;
 }

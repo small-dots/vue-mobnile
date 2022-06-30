@@ -14,6 +14,11 @@ const routes = [
         path: 'baseinfo',
         name: 'BaseiInfo',
         component: () => import("../components/baseinfo/index.vue")
+      },
+      {
+        path: 'report',
+        name: 'Report',
+        component: () => import("../components/report/index.vue")
       }
     ]
   },

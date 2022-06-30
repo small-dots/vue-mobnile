@@ -4,7 +4,7 @@
  * @Description: 
 -->
 <template>
-  <div class="container mx-auto">
+  <div class="container h-full">
     <Main></Main>
     <Footer></Footer>
   </div>

@@ -4,10 +4,12 @@
  * @Description: 
 -->
 <template>
-  <div>
-    环1
-    <br> 1
-    <br> 1
-    <br> 1
+  <div class="height_main">
+    <router-view></router-view>
   </div>
 </template>
+<style>
+.height_main {
+  height: calc(100vh - 6rem);
+}
+</style>
