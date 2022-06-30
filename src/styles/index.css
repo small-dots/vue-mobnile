@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+
+  box-sizing: border-box;
+  --bgColorMenu: #1d1d27;
+  --duration: .7s;
+
+}
+
+html *,
+html *::before,
+html *::after {
+
+  box-sizing: inherit;
+
+}
+
+body {
+
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: #ffffff;
+  -webkit-tap-highlight-color: transparent;
+}
