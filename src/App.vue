@@ -10,3 +10,10 @@
   <router-view></router-view>
 </template>
 
+<style scoped>
+</style>
+<style lang="css">
+.shadow-1 {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+</style>

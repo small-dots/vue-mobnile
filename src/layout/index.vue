@@ -5,11 +5,13 @@
 -->
 <template>
   <div class="container h-full">
+    <Header></Header>
     <Main></Main>
     <Footer></Footer>
   </div>
 </template>
 <script setup>
+import Header from "./header.vue";
 import Main from "./main.vue";
 import Footer from "./footer.vue";
 </script>

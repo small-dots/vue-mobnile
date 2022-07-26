@@ -2,16 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: siyuan;
+  src: url("../assets/fonts/SourceHanSansCN-Normal.otf");
+}
+
+@font-face {
+  font-family: sfb;
+  src: url("../assets/fonts/SFCompactDisplay-Heavy.otf");
+}
+
+@font-face {
+  font-family: sfl;
+  src: url("../assets/fonts/SFCompactDisplay-Light.otf");
+}
+
+
 * {
 
   margin: 0;
   padding: 0;
 }
 
-html {
+#app {
+  height: 100%;
+}
 
+html,
+body {
   box-sizing: border-box;
-
+  font-family: "siyuan";
 }
 
 html *,
@@ -23,6 +43,7 @@ html *::after {
 }
 
 body {
+  height: 100vh;
   height: 100vh;
   background-color: #ffffff;
   -webkit-tap-highlight-color: transparent;

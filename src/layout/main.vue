@@ -10,6 +10,6 @@
 </template>
 <style>
 .height_main {
-  height: calc(100vh - 6rem);
+  height: calc(100vh - 7.5rem);
 }
 </style>
