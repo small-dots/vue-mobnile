@@ -27,7 +27,7 @@
           <img
             v-if="index % 2 !== 0"
             class="h-16 w-24 rounded-md"
-            src="../../../assets/ppt2.png"
+            src="../../../assets/PPT2.png"
             alt=""
           />
           <div class="flex flex-1 flex-col justify-between">
